@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMVDashboard", "MMVDashboard\MMVDashboard.csproj", "{642217DD-1EEA-42C8-A3CE-894F9F864770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentation", "01. Presentation", "{E54155E7-5D56-4917-BD70-933F05E5F828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Application", "02. Application", "{735FB452-C978-4639-943F-F8A865267A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Domain", "03. Domain", "{18BB84C7-A6D9-4182-A6EE-85116E9657FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Share", "04. Share", "{C158C463-4AD2-490A-9721-90EE8F341571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMVDashboard.Utilities", "MMVDashboard.Utilities\MMVDashboard.Utilities.csproj", "{D1A3CD92-DB8D-4DAE-8298-0F942943C34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMVDashboard.Data", "MMVDashboard.Data\MMVDashboard.Data.csproj", "{D172C04C-780B-4F3B-9AB2-7CCC77810B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMVDashboard.Application", "MMVDashboard.Application\MMVDashboard.Application.csproj", "{5CE9582D-4A32-49BF-A22A-ED2BF017AEE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{642217DD-1EEA-42C8-A3CE-894F9F864770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642217DD-1EEA-42C8-A3CE-894F9F864770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642217DD-1EEA-42C8-A3CE-894F9F864770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642217DD-1EEA-42C8-A3CE-894F9F864770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A3CD92-DB8D-4DAE-8298-0F942943C34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A3CD92-DB8D-4DAE-8298-0F942943C34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A3CD92-DB8D-4DAE-8298-0F942943C34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A3CD92-DB8D-4DAE-8298-0F942943C34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D172C04C-780B-4F3B-9AB2-7CCC77810B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D172C04C-780B-4F3B-9AB2-7CCC77810B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D172C04C-780B-4F3B-9AB2-7CCC77810B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D172C04C-780B-4F3B-9AB2-7CCC77810B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE9582D-4A32-49BF-A22A-ED2BF017AEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE9582D-4A32-49BF-A22A-ED2BF017AEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE9582D-4A32-49BF-A22A-ED2BF017AEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE9582D-4A32-49BF-A22A-ED2BF017AEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{642217DD-1EEA-42C8-A3CE-894F9F864770} = {E54155E7-5D56-4917-BD70-933F05E5F828}
+		{D1A3CD92-DB8D-4DAE-8298-0F942943C34C} = {C158C463-4AD2-490A-9721-90EE8F341571}
+		{D172C04C-780B-4F3B-9AB2-7CCC77810B75} = {18BB84C7-A6D9-4182-A6EE-85116E9657FF}
+		{5CE9582D-4A32-49BF-A22A-ED2BF017AEE2} = {735FB452-C978-4639-943F-F8A865267A6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ECB2D93-B965-4155-A2D5-9D5C1EB8E053}
+	EndGlobalSection
+EndGlobal
